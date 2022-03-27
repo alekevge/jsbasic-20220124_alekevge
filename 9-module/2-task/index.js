@@ -17,7 +17,7 @@ export default class Main {
 
   async render() {
     // ... ваш код
-    let response = await fetch("products.json")
+    let response = await fetch("/9-module/2-task/products.json")
     if (response.ok)  this.products = await response.json()
     else return
 
