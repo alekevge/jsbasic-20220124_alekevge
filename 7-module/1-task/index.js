@@ -44,7 +44,7 @@ export default class RibbonMenu {
   addButton(className)
   {
     let btn = document.createElement("button")
-    btn.innerHTML = '<img src="/assets/images/icons/angle-icon.svg" alt="icon"></img>'
+    btn.innerHTML = '<img src="./assets/images/icons/angle-icon.svg" alt="icon"></img>'
     btn.classList.add("ribbon__arrow",className)
 
     this.elem.appendChild(btn)
